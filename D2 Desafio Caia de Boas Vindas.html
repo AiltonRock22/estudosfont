@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Vindas</title>
+    <style>
+        body{font: 12 arial;}
+        button{font-size: 12; padding: 50px;}
+    </style>
+</head>
+<body>
+    <h1>Tela de Boas Vindas</h1>
+    <button onclick="msn_boasvindas()">Clique Aqui para começar</button>
+    <script>
+        function msn_boasvindas(){
+            let nome = window.prompt("qual seu nome?")
+            let idade = window.prompt("qual sua idade?")
+            window.alert(`Seja bem vindo ${nome}!,você tem ${idade} anos de idade!`)
+        }
+    </script>
+</body>
+</html>
